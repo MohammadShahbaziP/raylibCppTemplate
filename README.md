@@ -13,10 +13,10 @@ It uses a clean **App/Core** structure with CMake and is ready for Visual Studio
 	cmake -B build -S .
 	cmake --build build
 ```
-3. Or open the folder directly in Visual Studio.
+Or open the folder directly in Visual Studio.
 
 ### 🐧 Linux / macOS
-3. sudo apt install cmake git build-essential
+sudo apt install cmake git build-essential
 ```bash
 	cmake -B build -S .
 	cmake --build build
