@@ -1,0 +1,55 @@
+# ---- Build files ----
+/build/
+/out/
+/bin/
+/lib/
+/obj/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# ---- Visual Studio ----
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.vs/
+.vscode/
+
+# ---- OS generated files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Backup / temp files ----
+*~
+*.swp
+*.tmp
+*.bak
+
+# ---- Raylib + Vendor ----
+/vendor/raylib-build/
+/vendor/raylib-subbuild/
+/vendor/raylib-src/
+/vendor/_deps/
+
+# ---- Logs ----
+*.log
+
+# ---- C++ artifacts ----
+*.o
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# ---- Cache ----
+.cache/
+.idea/
